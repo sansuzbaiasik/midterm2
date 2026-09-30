@@ -1,46 +1,57 @@
-# NexaWeb Studio — Web Development & IT Services Agency Website
+# Steppe & Mountains — Central Asia Travel Club
 
-## Group Members
+**Project Theme:** Multipage responsive travel club website (author's tours across Kyrgyzstan, Kazakhstan, Uzbekistan, and Tajikistan).
+
+## Team Members
+
 - Sansyzbay Assylkhan
 - Muktar Aikorkem
 - Kapessova Danaiym
 
-## Project Description
-NexaWeb Studio is a multi-page responsive website for a fictional Web Development
-& IT Services Agency. The website presents the agency's services, portfolio of
-completed projects, team information, pricing plans, and a contact form. It was
-built as a university midterm project to demonstrate HTML5, CSS3, and Bootstrap 5.
+## Brief Description
 
-## Features Implemented
-- 5 connected pages: Home, About, Services, Portfolio, Contact
-- Semantic HTML5 structure (header, nav, main, section, article, footer)
-- Flexbox navigation bar in the header on every page
-- CSS Grid and Flexbox layouts for cards and content sections
-- Pricing table (HTML table element) on the Services page
-- Contact form with validation-friendly input types on the Contact page
-- Responsive design: Bootstrap 5 grid system, utility classes, and custom
-  media queries for tablet (max-width: 992px) and mobile (max-width: 576px)
-- CSS variables in :root, Google Font (Poppins), :hover and :focus states,
-  :nth-child() pseudo-class for alternating cards, and fixed/absolute/relative
-  positioning
-- Lazy loading on images below the fold
-- Consistent footer with contact info, social links, and copyright
+"Steppe & Mountains" is an educational travel club website consisting of five pages. The site introduces tour destinations, the team, and club values; it includes a price list for the season, a photo gallery, and an application form. The design is executed in a warm "earthy" palette (cream, terracotta, sage, coral) with editorial typography.
+
+## Website Structure
+
+| Page | File | Content |
+|---|---|---|
+| Home | `index.html` | Hero block, destinations, statistics, CTA |
+| About Us | `about.html` | Club history, principles, team |
+| Tours & Prices | `services.html` | What's included in the tour + price list table |
+| Gallery | `portfolio.html` | Photo gallery (CSS Grid) + blog notes |
+| Contacts | `contact.html` | Feedback form + contact information |
+
+## Implemented Features
+
+- 5 pages connected by common navigation; `<header>`, `<main>`, `<footer>` on every page
+- HTML5 semantic tags: `header`, `nav`, `main`, `section`, `article`, `figure`, `figcaption`, `footer`, `table`, `form`
+- External stylesheet `css/style.css` (no inline or internal styles)
+- CSS variables in `:root` (colors, fonts, sizes, radiuses)
+- Google Fonts: Playfair Display (headings) + Manrope (text)
+- Layouts based on Flexbox (header, footer, CTA) and CSS Grid (hero, cards, gallery)
+- Positioning: `sticky` header, `absolute` badges and photo captions, rotated label on the "About Us" page
+- Pseudo-classes `:hover` and `:focus` for links, buttons, and form fields
+- `:nth-child()` for table "zebra", card accents, list of principles, and gallery rhythm
+- Table (price list) and HTML form (request on the contacts page)
+- `loading="lazy"` attribute for all images below the first screen
+- Bootstrap 5: grid (`container`, `row`, `col-*`) and utilities (`py-5`, `g-4`, `text-center`, `d-flex`, `h-100`, forms)
+- Custom media queries for tablets (≤ 991.98px) and mobile devices (≤ 575.98px): vertical header, single-column grid restructuring
+- Generated branded images in the `img/` folder
 
 ## Technologies Used
-- HTML5
-- CSS3 (external stylesheet: css/style.css)
-- Bootstrap 5.3 (CDN)
-- Google Fonts (Poppins)
-- GitHub Pages (deployment)
 
-## Individual Contributions
-- Sansyzbay Assylkhan — Project structure, index.html, css/style.css base styles,
-  Flexbox navigation, responsive media queries
-- Muktar Aikorkem — about.html, services.html, pricing table, CSS Grid layouts,
-  Bootstrap grid integration
-- Kapessova Danaiym — portfolio.html, contact.html, contact form, footer,
-  Google Fonts and hover/focus states
+- HTML5 (semantic markup)
+- CSS3 (variables, Flexbox, Grid, positioning, pseudo-classes, media queries)
+- Bootstrap 5.3 (grid and utility classes)
+- Google Fonts (Playfair Display, Manrope)
+
+## Team Contributions
+
+- **Sansyzbay Assylkhan** — *(placeholder: e.g., home page and main CSS)*
+- **Muktar Aikorkem** — *(placeholder: e.g., About Us and Gallery pages)*
+- **Kapessova Danaiym** — *(placeholder: e.g., Tours & Prices, Contacts, responsiveness)*
 
 ## Published Website
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/
-(Replace this placeholder with the actual GitHub Pages link after deployment.)
+
+🔗 GitHub Pages / Netlify Link: *(insert link after publishing)*
